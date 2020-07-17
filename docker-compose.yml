@@ -1,0 +1,13 @@
+version: '2'
+services:
+  api:
+    container_name: kg-wfm-backend
+    build:
+      context: .
+      dockerfile: ./deployment/local/Dockerfile
+    volumes:
+      - .:/var/src
+    working_dir: /var/src
+    ports:
+      - 8200:3000
+    command: npm run start:dev

@@ -1,0 +1,19 @@
+deploy:
+  script:
+    - cd ..
+    - cd ..
+    - cd ..
+    - cd ..
+    - cd ..
+    - cd ..
+    - cd ..
+    - cd ..
+    - dir
+    - cd home
+    - cd admin
+    - cd kluay
+    - cd kg-wfm-backend
+    - dir
+    - git pull
+  tags:
+    - kg-linux-tag

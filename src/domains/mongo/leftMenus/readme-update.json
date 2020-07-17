@@ -1,0 +1,19 @@
+[
+{
+    "editRequire":"editOne",
+    "companyCode": "KGT2",
+    "vocab":"Dashboard2",
+    "languageCode":"TH",
+    "value":"ทดสอบจ่ะ"
+}
+,
+{
+    "editRequire":"editAll",
+    "companyCode": "KGT2",
+    "languages":{
+        "vocab":{
+            "TH":""
+        }
+    }
+}
+]
